@@ -1,0 +1,215 @@
+/*
+Theme Name:     Divi Child
+Description:    Divi Child Theme Style
+Author:         Ben Yannella
+Template:       Divi
+Version:        1.0.1
+*/
+
+/*Head*/
+
+.ks-header-title {
+    margin-bottom: 2px !important;
+}
+.et-fixed-header .ks-header-title {
+    font-size: 18px;
+}
+.et-fixed-header .ks-header-desc {
+    font-size: 15px;
+}
+#top-menu a {
+    color: #959595 !important;
+}
+#top-menu a, #et-main-area a {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    transition: none !important;
+}
+#top-menu-nav > ul > li > a:hover {
+    color: #000 !important;
+}
+.ks-header-title {
+    font-family: 'PT Sans', Arial, sans-serif !important;
+    color: #505050;
+    font-size: 22px;
+    font-weight: normal;
+}
+.ks-header-desc {
+    padding-left: 10px;
+}
+.home #main-header {
+    box-shadow: none;
+}
+
+/*Home*/
+
+.home .et_pb_column {
+    padding: 1px;
+}
+.ks-home-but img:hover {
+    opacity: 0;
+}
+.page-id-92 .ks-menu-hide {
+    display:none;
+    visibility: hidden;
+}
+.ks-hero .header-content {
+    width: 100% !important;
+    max-width: 90% !important;
+    margin: 0 auto !important;
+}
+
+.ks-home-link p {display: inline-block;}
+
+.ks-home-link a {color: #959595;}
+.ks-home-link a:hover {color: #000 !important;}
+
+#open-popup {
+    color: #959595;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px;
+    background: transparent;
+    border: none;
+   font-size: 15px;
+}
+
+#open-popup:hover {color: #000 !important;}
+
+.mc-modal {
+    top: 25%;
+}
+
+/*Link Style*/
+
+#top-menu-nav>ul>li>a:hover {
+    color: #2ea3f2;
+}
+.et-social-icon a.icon:hover {
+    color: #fff;
+}
+
+/*Blog & Post Page*/
+
+.blog .et_pb_post {
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.ks-divi-post-hd {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.ks-post-single {
+    margin-top: -75px;
+}
+h1.entry-title, h2.entry-title {
+    font-size: 39px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 0px !important;
+    padding-top: 50px;
+}
+h1.entry-title {
+    padding-bottom: 3px !important;
+}
+.author-date {
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 16px;
+}
+.ks-post-single p {
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.ks-post-main p {
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.et_pb_section {
+    background-color: rgba(0,0,0,0);
+}
+.ks-post-social p {
+    font-family:'PT-Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.8em;
+}
+.ks-post-social a {
+    display:inline-block;
+    padding-right:15px;
+    color: #2ea3f2;
+}
+a.more-link {
+    display:block;
+    padding-top: 20px;
+}
+.blog-listing p:nth-child(1) {
+    display: none;
+}
+.et_pb_post .et_pb_section {
+    display: block;
+}
+.et_pb_post .et_pb_row {
+    padding: 0px;
+}
+.et_pb_post .et_section_regular {
+    padding: 0px;
+}
+.et_pb_video {
+    width: 82.5%;
+    margin: 0 auto;
+}
+.et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description {
+    padding: 0%;
+}
+.et_pb_slide .et_pb_container {
+    height: 300px !important;
+}
+
+@media screen and (max-width:630px) {
+    .et-pb-active-slide .et_pb_slide_description {
+        zoom: 0.75;
+    }
+}
+
+/*Sidebar*/
+
+.et_right_sidebar #sidebar {
+    font-size: 14px;
+    line-height: 1.5;
+}
+#sidebar .et_pb_widget {
+    margin-bottom: 10px;
+}
+.wp-caption {
+    max-width: 100%;
+    margin-bottom: 0px;
+    padding: 0px;padding-top: 0px;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+}
+.wp-caption img {
+    max-width: 70% !important;
+}
+.wp-caption p.wp-caption-text {
+    display:none;
+}
+#sidebar .widget_text {
+    padding-bottom: 50px;
+    color: #959595;
+}
+.ks-sidebar-social, .ks-sidebar-ab {
+    display:block;
+    text-align: center;
+}
+.ks-sidebar-social a, .ks-sidebar-ab a {
+    display:block;
+    color: #959595 !important;
+}
+.ks-sidebar-social a:hover, .ks-sidebar-ab a:hover {
+    color: #000 !important;
+}
+#footer-bottom {
+   display:none;
+}

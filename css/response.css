@@ -1,0 +1,115 @@
+/*
+Theme Name:     Divi Child
+Description:    Divi Child Responsive Style
+Author:         Ben Yannella
+Template:       Divi
+Version:        1.0.1
+*/
+
+/*HOME*/
+
+@media screen and (max-width:1350px) {
+    .et_pb_section_0 {
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .et_pb_section_0 {
+        margin-top: 0px !important;
+    }
+    .ks-home-but img {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .ks-home-but, .et_pb_image_1 {
+        margin-bottom:0px !important;
+    }
+	.home .et_pb_column {
+	    padding: 0px !important;
+	}
+    .ks-home-link {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .et_pb_section_0 {
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .et-pb-active-slide .et_pb_slide_description {
+        zoom: 0.75;
+    }
+}
+
+/*BLOG+POST*/
+
+@media screen and (max-width: 1340px) {
+	.ks-post-single {
+		    margin-top: -25px;
+	}
+}
+@media screen and (max-width: 980px) {
+    .et_pb_video {
+        width: 100% !important;
+    }
+}
+
+/*SIDEBAR*/
+
+@media screen and (max-width: 980px) {
+    #sidebar .widget_media_image {
+        padding-bottom: 50px;
+    }
+    #sidebar .widget_media_image .wp-caption {
+        margin: 0 auto;
+    }
+}
+/*
+@media screen and (max-width: 600px) {
+    
+    #left-area {
+        padding-bottom: 50px;
+    }
+    #sidebar {
+        width: 100vw !important;
+        background-color: #ebebeb;
+        bottom: 0; left: 0;
+        padding-left: 25px !important; padding-top: 25px; padding-bottom: 0px;        
+        position: relative;
+        margin-left: -41px !important; 
+    }
+    #sidebar .et_pb_widget {
+        width: 32%;
+        display:inline-block;
+        vertical-align: top;
+    }
+	#sidebar .widget_media_image {
+		width: 100%;
+    	display: block;
+	}
+	.widget_media_image .wp-caption {
+		margin: 0 auto;
+		background-color: rgba(0,0,0,0);
+	} 
+	.widget_media_image .wp-caption img {
+		max-width: 50% !important;
+	}
+    .textwidget img {
+        display:none;
+    }
+    .ks-sidebar-ab {
+        padding: 0px;
+    }
+}
+*/
+@media screen and (max-width: 400px) {
+    #sidebar .et_pb_widget {
+        font-size: 12px;
+    }
+}
